@@ -1,0 +1,60 @@
+
+    *{
+        border: solid 1px red;;
+    }
+        body{
+            background: url(/../images/top-view-person-writing-on-laptop-with-copy-space.jpg) center center no-repeat fixed;
+            background-size: cover;
+            text-align: center;
+            line-height: 2;
+        }
+        h1{
+            font-family: 'Gotham-Black';
+            font-weight: 1000;
+            font-size:5vh;
+            color: #1B3D70;
+            margin-bottom: opx;
+        }
+        h2{
+            margin-top: -50px;
+            font-family: 'Gotham-Medium';
+            color: #648CBB;
+            font-size:4vh;
+        }
+        h3{
+            font-family: 'Gotham-Light';
+            font-size:2vh;
+            padding-top: 10vh;
+        }
+        p{
+            font-family: 'Gotham-Light';
+            font-size:1.8vh;
+        }
+        section{
+            margin: 5vh 0vw 0 35%;
+            width: 65%;
+        }
+        .icono-ajustes{
+            width: 20%;
+            height: 10vh;
+            margin: auto;
+            background-repeat: no-repeat;
+            background-image: url(/../images/icono\ contruccion.png);
+            background-size: contain;
+            background-position: center;
+        }
+        a{
+            color: #083763;
+        }
+        a:focus{
+            outline:none;
+            outline-offset:inherit;
+        }
+        .marca{
+            width: 25vh;
+            height: 8vw;
+            margin: auto;
+            background-repeat: no-repeat;
+            background-image: url(/../images/Logo-Toscana-OA.png);
+            background-size: contain;
+        }

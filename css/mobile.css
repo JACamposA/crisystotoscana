@@ -1,0 +1,25 @@
+@media (max-device-width: 800px) {
+    section{
+        margin: auto;
+        width: 95%;
+    }
+
+    h1{
+        margin-bottom: 10vh;
+    }
+    
+    h2{
+        margin-top: -50px;
+    }  
+    .marca {
+        height: 25vw;
+        margin: auto;
+    }
+    body{
+        background: rgb(231, 229, 229);
+    }
+    .icono-ajustes{
+    }
+}
+
+

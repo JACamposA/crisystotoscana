@@ -1,0 +1,16 @@
+
+@font-face {
+    font-family:"Gotham-Black";
+    src: url("/../fonts/Gotham/Gotham/Gotham-Black.otf");
+    src:url("/../fonts/Gotham/__MACOSX/Gotham/Gotham-Black") format("opentype"),
+    }
+@font-face {
+    font-family:"Gotham-Medium";
+    src: url("/../fonts/Gotham/Gotham/Gotham-Medium.otf");
+    src:url("/../fonts/Gotham/__MACOSX/Gotham/Gotham-Medium") format("opentype"),
+    }
+@font-face {
+    font-family:"Gotham-Light";
+    src: url("/../fonts/Gotham/Gotham/Gotham-Light.otf");
+    src:url("/../fonts/Gotham/__MACOSX/Gotham/Gotham-Light") format("opentype"),
+    }
