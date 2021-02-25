@@ -1,24 +1,61 @@
 @media (max-device-width: 800px) {
     section{
         margin: auto;
-        width: 95%;
+        width: 100%;
+        position: relative;
     }
 
     h1{
-        margin-bottom: 10vh;
+        line-height: 1.1em;
+        font-weight: 200;
+        margin-bottom: 0px;
+        font-size: 4vh;
     }
     
     h2{
-        margin-top: -50px;
+        font-size: 2vh;
+        margin-bottom: 0px;
     }  
-    .marca {
+    h3{
+        padding-top: 0vh;
+        font-size: 2vh;
+    }
+    p{
+        z-index: 100;
+        position: absolute;
+        top: 45vh;
+        left: 5vw;
+    }
+    .icono-ajustes{
+        width: 20%;
+        height: 10vh;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-image: url(/../images/icono\ contruccion.png);
+        background-size: contain;
+        background-position: center;
+    }
+    #marca {
         height: 25vw;
         margin: auto;
+        z-index: 100;
+        position: absolute;
+        top: 60vh;
+        left: 20vw;
     }
     body{
         background: rgb(231, 229, 229);
     }
-    .icono-ajustes{
+    #footer-mobile{
+        background-image: url(/images/top-view-person-writing-on-laptop-with-copy-space.jpg);
+        background-size: cover;
+        bottom:0px;
+        left:0px;
+        height: 30vh;
+        width: 100vw;
+        position: absolute;
+        border-radius: 25% 25% 0% 0%;
+        box-shadow:inset 0px 0px 50px 1px rgb(231, 229, 229);
     }
 }
 

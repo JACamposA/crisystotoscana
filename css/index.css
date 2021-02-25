@@ -1,7 +1,4 @@
 
-    *{
-        border: solid 1px red;;
-    }
         body{
             background: url(/../images/top-view-person-writing-on-laptop-with-copy-space.jpg) center center no-repeat fixed;
             background-size: cover;
@@ -13,10 +10,10 @@
             font-weight: 1000;
             font-size:5vh;
             color: #1B3D70;
-            margin-bottom: opx;
+            margin-top: 0px;
+
         }
         h2{
-            margin-top: -50px;
             font-family: 'Gotham-Medium';
             color: #648CBB;
             font-size:4vh;
@@ -31,7 +28,7 @@
             font-size:1.8vh;
         }
         section{
-            margin: 5vh 0vw 0 35%;
+            margin: 5vh 0vw 0 34vw;
             width: 65%;
         }
         .icono-ajustes{
@@ -50,11 +47,8 @@
             outline:none;
             outline-offset:inherit;
         }
-        .marca{
-            width: 25vh;
+        #marca{
             height: 8vw;
             margin: auto;
-            background-repeat: no-repeat;
-            background-image: url(/../images/Logo-Toscana-OA.png);
-            background-size: contain;
+            margin-top: 15vh;
         }
