@@ -17,25 +17,24 @@
         color: #1B3D70;
         margin-top: 0px;
     }
-    #mobile-break{
-        display: none;
-    }
     h2{
         font-family: 'Gotham-Medium';
         color: #648CBB;
-        font-size:4vh;
+        font-size:3.5vh;
     }
     h3{
         font-family: 'Gotham-Light';
-        font-size:2vh;
-        padding-top: 10vh;
+        font-size:1.5vh;
+        margin: auto;
+        padding-top: 2vh;
+        width: 80%;
     }
     p{
         font-family: 'Gotham-Light';
         font-size:1.8vh;
     }
     section{
-        margin: 5vh 0vw 0 30vw;
+        margin: 5vh 0vw 0 35vw;
         width: 65%;
     }
     .icono-ajustes{
@@ -55,10 +54,9 @@
         outline-offset:inherit;
     }
     #marca{
-        display: none;
-        height: 8vw;
+        height: 5vw;
         margin: auto;
-        margin-top: 15vh;
+        margin-top: 0vh;
     }
     #footer-mobile{
         display: none;
