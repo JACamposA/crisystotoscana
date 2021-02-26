@@ -1,9 +1,10 @@
 
         body{
-            background: url(/../images/top-view-person-writing-on-laptop-with-copy-space.jpg) center center no-repeat fixed;
+            background: url(/../images/laptop.jpg) center center no-repeat fixed;
             background-size: cover;
             text-align: center;
             line-height: 2;
+            padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
         }
         h1{
             font-family: 'Gotham-Black';
@@ -11,7 +12,9 @@
             font-size:5vh;
             color: #1B3D70;
             margin-top: 0px;
-
+        }
+        #mobile-break{
+            display: none;
         }
         h2{
             font-family: 'Gotham-Medium';
@@ -28,7 +31,7 @@
             font-size:1.8vh;
         }
         section{
-            margin: 5vh 0vw 0 34vw;
+            margin: 5vh 0vw 0 30vw;
             width: 65%;
         }
         .icono-ajustes{

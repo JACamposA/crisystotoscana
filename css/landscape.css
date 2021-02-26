@@ -1,0 +1,68 @@
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    body{
+        background: url(/images/laptop.jpg) center center no-repeat fixed;
+        background-size: cover;
+        text-align: center;
+        line-height: 2;
+    }
+    h1{
+        font-family: 'Gotham-Black';
+        font-weight: 1000;
+        font-size:5vh;
+        color: #1B3D70;
+        margin-top: 0px;
+    }
+    #mobile-break{
+        display: none;
+    }
+    h2{
+        font-family: 'Gotham-Medium';
+        color: #648CBB;
+        font-size:4vh;
+    }
+    h3{
+        font-family: 'Gotham-Light';
+        font-size:2vh;
+        padding-top: 10vh;
+    }
+    p{
+        font-family: 'Gotham-Light';
+        font-size:1.8vh;
+    }
+    section{
+        margin: 5vh 0vw 0 30vw;
+        width: 65%;
+    }
+    .icono-ajustes{
+        width: 20%;
+        height: 10vh;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-image: url(/../images/icono\ contruccion.png);
+        background-size: contain;
+        background-position: center;
+    }
+    a{
+        color: #083763;
+    }
+    a:focus{
+        outline:none;
+        outline-offset:inherit;
+    }
+    #marca{
+        display: none;
+        height: 8vw;
+        margin: auto;
+        margin-top: 15vh;
+    }
+    #footer-mobile{
+        display: none;
+    }
+
+}
+
