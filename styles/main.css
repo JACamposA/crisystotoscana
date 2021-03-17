@@ -1,3 +1,95 @@
-*{
-    border:solid 1px red
+@media (min-device-width: 750px) {
+    html{
+        height: 100vh;
+    }
+    body{
+        background-size: cover;
+        background-image: url("../media/resources/top-view-person-writing-on-laptop-with-copy-space.jpg");
+        background-repeat: no-repeat;
+        background-color: #dfdfdf;
+        height: 100vh;
+        min-height: -webkit-fill-available;
+    }
+    section{   
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .laptop{
+        width: 100%;
+    }
+    .contenido{
+        flex-shrink: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+    }
+    .icono-toscana{
+        width: 200px;
+    }
+    .icono-ajustes{
+        background-image: url(../media/resources/icono\ contruccion-04.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100px;
+        width: 100px;
+    }
+    .mobile-br{
+        display: none;
+    }
+    h1{
+        font-family: gothamBlack;
+        color:#1B3D70;
+        font-size: 3vw;
+    }
+    h2{
+        font-family: gothamMedium;
+        color: #648CBB;
+        font-size:2.5vw;
+        font-weight: 500;
+    }
+    h3{
+        font-family: gothamMedium;
+        font-weight: lighter;
+        font-size: 2vw;
+        max-width: 55%;
+    }
+    p{
+        font-family: gothamLight;
+        font-weight: lighter;
+        font-size: 1.5vw;
+        max-width: 55%;
+    }
+    a{
+        text-decoration: none !important;
+        color: rgb(28, 91, 173);
+    }
+}
+
+/* iPhone */
+@media only screen and (width:320px) and (device-width:320px) and (device-height:480px) and (orientation: landscape) {
+	body {
+		-webkit-transform: scale(0.667);
+		-webkit-transform-origin: top right;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 480px;
+	}
+}
+/* iPad */
+@media only screen and (width:768px) and (device-width:768px) and (device-height:1024px) and (orientation: landscape) {
+	body {
+		-webkit-transform: scale(0.75);
+		-webkit-transform-origin: top right;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 1024px;
+	}
 }

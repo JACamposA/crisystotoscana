@@ -1,0 +1,68 @@
+@media only screen and (min-width : 321px) {
+    body{
+        background-size: cover;
+        background-image: url("../media/resources/Landing\ page\ tablet\ photo\ baja.jpg");
+        background-repeat: no-repeat;
+        background-color: #dfdfdf;
+        height: 100vh;
+        min-height: -webkit-fill-available;
+    }
+    section{   
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .laptop{
+        width: 100%;
+    }
+    .contenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+    }
+    .icono-toscana{
+        width: 150px;
+    }
+    .icono-ajustes{
+        background-image: url(../media/resources/icono\ contruccion-04.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 75px;
+        width: 75px;
+    }
+    .mobile-br{
+        display: none;
+    }
+    h1{
+        font-family: gothamBlack;
+        color:#1B3D70;
+        font-size: large;
+    }
+    h2{
+        font-family: gothamMedium;
+        color: #648CBB;
+        font-size:medium;
+        font-weight: 500;
+    }
+    h3{
+        font-family: gothamMedium;
+        font-weight: lighter;
+        font-size: 2vw;
+        max-width: 85%;
+    }
+    p{
+        font-family: gothamLight;
+        font-weight: lighter;
+        font-size: 1.7vw;
+        max-width: 75%;
+    }
+    a{
+        text-decoration: none !important;
+        color: rgb(28, 91, 173);
+    }
+}
