@@ -1,0 +1,60 @@
+@media (max-device-width: 640px) {
+    body{
+        background-size: cover;
+        background-image: url("../media/resources/vertical-bg.jpg");
+        background-repeat: no-repeat;
+    }
+    section{   
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+        height: 80vh;
+        margin-top: 5vh;
+    }
+    .icono-toscana{
+        width: 200px;
+    }
+    .icono-ajustes{
+        background-image: url(../media/resources/icono\ contruccion-04.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100px;
+        width: 100px;
+    }
+    h1{
+        font-family: gothamBlack;
+        color:#1B3D70;
+        font-size: 2.5em;
+    }
+    h2{
+        font-family: gothamMedium;
+        color: #648CBB;
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+    h3{
+        font-family: gothamMedium;
+        font-weight: lighter;
+        font-size: .85em;
+        max-width: 85%;
+    }
+    p{
+        font-family: gothamLight;
+        font-weight: lighter;
+        font-size: .75em;
+        max-width: 75%;
+    }
+    a{
+        text-decoration: none !important;
+        color: rgb(28, 91, 173);
+    }
+}

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: GothamBlack;
+    src: url(/redirect-toscana/media/gotham/Gotham/Gotham-Black.otf);
+  }
+@font-face {
+    font-family: GothamMedium;
+    src: url(/redirect-toscana/media/gotham/Gotham/Gotham-Medium.otf);
+  }
+@font-face {
+    font-family: GothamLight;
+    src: url(/redirect-toscana/media/gotham/Gotham/Gotham-Light.otf);
+  }
